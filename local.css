@@ -13,6 +13,7 @@ a:hover {
 
 body {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
   }
 
 body h2 {
@@ -33,6 +34,14 @@ body h2 {
     padding: 10px 17px;
     text-decoration: none;
     font-size: 14px;
+  }
+  
+  pre{
+  	background-color: #262626;
+  	color: #ccc;
+  	padding: 10px;
+  	border-radius: 3px;
+  	width: auto;
   }
   
   fieldset h1 {
@@ -133,6 +142,25 @@ body h2 {
       list-style-type: none;
   }
   
+   table, th, td {
+   	border: transparent;
+   	border-collapse: collapse;
+   	padding: 10px;
+   }
+   
+   table a {
+   	color: #248f24;
+   }
+   
+   .alert-notes{
+   	background-color: #ffffcc;
+   	height: auto;
+   	width: auto;
+   	padding: 10px;
+   	font-size: 14px;
+   	border: 1px solid #ffff66;
+   }
+   
   .globalField a {
   	color: blue;
   	margin-left: 15px;

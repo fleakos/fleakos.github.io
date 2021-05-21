@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="local.css"/>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<title>Document</title>
+</head>
+<body>
+	<p style="color: gray; font-size: 17px; font-style: italic; font-family: 'Ubuntu Mono', monospace;"><i style="margin-left: 10px; color: green; font-size: 30px; font-weight: bold;" >FleakOS</i>  Download Page</p>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="#Download" content="Olá">Download</a>
+        <a href="#Get-Involved">Get Involved</a>
+        <div class="dropdown">
+          <button class="dropbtn">Issues
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="">Packages</a>
+            <a href="">Bugs</a>
+            <a href="">Wiki</a>
+          </div>
+        </div>
+        <a href="#about">About</a>
+        <a href="#Get-Involved">Packages</a>
+         <a href="#Get-Involved">Donate </a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+
+       
+    
+
+    <div style="padding: 10px; width: 90%; font-size: 14px; border: 2px solid #00b300; margin: 30px; background: #e6ffe6;">
+        <h1>Getting Started</h1>
+        <p>This is the download page, scroll down a bit more, and you can find complete installation documentation, a table with the main architectures, and that, if yours is not listed, it may be in the complete list. We still provide some quick setup tutorials.
+        <br><br>
+        Remember to always check your architecture, also remember to have the necessary knowledge to generate partitions, since 		the system does not offer you any program or script that creates an assisted partitioning.
+        <br>
+        <b>Note: For a more comfortable use of the system, we recommend more than 500M of memory in the / boot / efi partition.</b>
+        </p>
+    </div>
+
+    <div style="padding: 10px; margin: 30px; width: 90%; border-bottom: 1px solid #ccc; hyphen: auto;">
+    <table>
+	<tr>
+		<td style="color: green;">CPU</td>
+		<td style="color: green;">Machine</td>
+		<td style="color: green;">Media Installation</td>
+	</tr>
+	
+	<tr>
+		<td><a href="">amd64</a></td>
+		<td>64-bit x86-family machines with AMD or Intel CPUs</td>
+		<td>USB image</td>
+	</tr>
+	<tr>
+		<td><a href="">i386</a></td>
+		<td>32-bit x86-family generic machines</td>
+		<td>USB image, CD</td>
+	</tr>
+	<tr>
+		<td><a href="">arm</a></td>
+		<td>ARM systems like Raspberry Pi, PINE64, ODROID, "ServerReady"</td>
+		<td>USB image</td>
+	</tr>
+	<tr>
+		<td><a href="">mips</a></td>
+		<td>MIPS systems like EdgeRouter, Loongson, Malta</td>
+		<td>USB image, CD</td>
+	</tr>
+    </table>
+    <p><img src="icons/icon_world.gif" height="20"><a href=""> The full list of the CPUs</a></p>
+    
+    <div class="alert-notes">
+    	<p>Note: If your architecture does not even appear in the table, let alone the full list of supported architectures, unfortunately it has not yet been supported. However, if you wish, send us an email contacting us about it.</p>
+    </div>
+        
+        <p>You can still check all live images and tarball files in the official repository. You can download your image on the Mirror of your choice, however, it is recommended that you use a local repository (as close to you as possible).</p>
+        <li><a href="">https://repo.official.flakeos.org/archives/current</a>
+        
+        <p>You can also check the integrity of the files with the following command below:</p>
+  	<pre># sha256 youriso.iso</pre>      
+    </div>
+    
+    <div class="footer" style="margin-left: 30px; font-size: 13px;">
+    	  <p>FleakOS Community - ©2021</p>
+    </div>
+
+    <script>
+        function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+    </script>
+</body>
+</html>
