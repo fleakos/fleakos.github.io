@@ -142,7 +142,7 @@ body h2 {
       list-style-type: none;
   }
   
-  ul {
+  ul, li{
       list-style-type: none;
   }
   
