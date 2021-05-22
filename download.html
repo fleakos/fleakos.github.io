@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -28,7 +28,6 @@
         <a href="#about">About</a>
         <a href="#Get-Involved">Packages</a>
          <a href="#Get-Involved">Donate </a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
       </div>
     
 
@@ -42,7 +41,7 @@
         </p>
     </div>
 
-    <div style="padding: 10px; margin: 30px; width: 90%; border-bottom: 1px solid #ccc; hyphen: auto;">
+    <div style="padding: 10px; margin: 30px; width: 90%; border-bottom: 1px solid #ccc;">
     <table>
 	<tr>
 		<td style="color: green;">CPU</td>
@@ -71,14 +70,14 @@
 		<td>USB image, CD</td>
 	</tr>
     </table>
-    <p><img src="icons/icon_world.gif" height="20"><a href="list-index/"> The full list of the CPUs</a></p>
+    <p><img src="icons/icon_world.gif" alt="icon-world" height="20"><a href="list-index/"> The full list of the CPUs</a></p>
     
     <div class="alert-notes">
     	<p>Note: If your architecture does not even appear in the table, let alone the full list of supported architectures, unfortunately it has not yet been supported. However, if you wish, send us an email contacting us about it.</p>
     </div>
         
         <p>You can still check all live images and tarball files in the official repository. You can download your image on the Mirror of your choice, however, it is recommended that you use a local repository (as close to you as possible).</p>
-        <li><a href="">https://repo.official.flakeos.org/archives/current</a>
+        <p><a href="">https://repo.official.flakeos.org/archives/current</a></p>
         
         <p>You can also check the integrity of the files with the following command below:</p>
   	<pre># sha256 youriso.iso</pre>      
@@ -86,19 +85,10 @@
     
     <div class="footer" style="margin-left: 30px; font-size: 13px;">
     	  <p>FleakOS Community - ©2021</p>
-    	
+    	<p>
+    		<a href="https://validator.w3.org/#validate_by_uri"><img
+      src="https://uglyduck.ca/public/html5-validator-badge-blue.svg" alt="Valid XHTML 1.1" height="31" width="88" /></a>
+ 	 </p>
     </div>
-    
-
-    <script>
-        function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-    </script>
 </body>
 </html>
